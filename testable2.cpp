@@ -5,7 +5,9 @@
 int main(int argc, char const *argv[])
 {
   if (strcmp(argv[1], "bar")) {
-    std::cout << ""; // << std::endl;
+    //std::cout << ""; // << std::endl;
+    while (true) {}
+
   } else if (strcmp(argv[1], "foo")) {
     std::cout << "Hello, Anacapa!  This is the expected output." << std::endl;
   }
