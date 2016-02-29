@@ -1,8 +1,0 @@
-CXX=clang++
-DEBUG=-g
-
-testable1:
-	$(CXX) testable1.cpp -o student1
-
-testable2:
-	$(CXX) testable2.cpp -o student2

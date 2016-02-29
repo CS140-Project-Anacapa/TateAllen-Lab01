@@ -1,8 +1,0 @@
-#include <iostream>
-
-int main(int argc, char const *argv[])
-{
-  std::cout << "Student1!" << std::endl;
-  
-  return 0;
-}
